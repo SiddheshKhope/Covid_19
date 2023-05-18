@@ -97,4 +97,5 @@ async def predict(item: DataType):
 async def root():
     return {"message": "This API Only Has Get Method as of now"}
 
-
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=8000)
